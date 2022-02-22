@@ -33,6 +33,8 @@ SELECT
   
 FROM dannys_diner.sales s
 inner join  dannys_diner.menu m
+
+
 on s.product_id = m.product_id)
 
 select customer_id,product_name from cte
